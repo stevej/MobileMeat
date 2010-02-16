@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Mobilemeat</string>
+    <string name="meat_welcome">Welcome to the Future of Meat Viewing</string>
+    <string name="app_name">MobileMeat</string>
 </resources>
