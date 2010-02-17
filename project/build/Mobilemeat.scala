@@ -9,7 +9,8 @@ class Mobilemeat(info: ProjectInfo) extends AndroidProject(info) with Defaults w
   override def updateAction = task { None }
 
   val scalatest = "org.scalatest" % "scalatest" % "1.0" % "test"
-  val keyalias = "/Users/stevej/.keystore/saladwithsteve.keystore"
+  val keyalias = "saladwithsteve_keys"
+  override def keystorePath = Path.userHome / ".keystore" / "saladwithsteve.keystore"
 
   class TestProject(info: ProjectInfo) extends AndroidTestProject(info) with Defaults
 }
