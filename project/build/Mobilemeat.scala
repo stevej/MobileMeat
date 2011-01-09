@@ -1,7 +1,7 @@
 import sbt._
 
 trait Defaults {
-  def androidPlatformName = "android-2.1"
+  def androidPlatformName = "android-8"
 }
 
 class Mobilemeat(info: ProjectInfo) extends AndroidProject(info) with Defaults with MarketPublish {
